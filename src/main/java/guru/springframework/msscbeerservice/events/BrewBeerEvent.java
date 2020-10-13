@@ -4,8 +4,7 @@ import guru.springframework.msscbeerservice.web.model.BeerDto;
 
 public class BrewBeerEvent extends BeerEvent {
 
-
-    BrewBeerEvent(BeerDto beerDto) {
+    public BrewBeerEvent(BeerDto beerDto) {
         super(beerDto);
     }
 }
